@@ -1,0 +1,36 @@
+# ── Large binary / generated outputs ───────────────────────────────────────
+BabyBench2025_Starter_Kit/results/
+BabyBench2025_Starter_Kit/MIMo/
+*.zip
+*.mp4
+*.avi
+*.gif
+
+# ── Python cache ────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ── Conda / virtualenv ───────────────────────────────────────────────────────
+.env
+.venv
+env/
+
+# ── Editor / OS ─────────────────────────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Nested git (BabyBench has its own .git — treat as plain folder) ──────────
+BabyBench2025_Starter_Kit/.git/
