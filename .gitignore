@@ -3,6 +3,7 @@ BabyBench2025_Starter_Kit/MIMo/
 *.zip
 *.mp4
 *.avi
+*.pkl
 *.gif
 
 # ── Python cache ────────────────────────────────────────────────────────────

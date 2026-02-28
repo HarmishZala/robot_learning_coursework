@@ -1,6 +1,4 @@
 # BabyBench files and directories
-results/*
-!results/__init__.py
 test_installation.avi
 test/*
 test*

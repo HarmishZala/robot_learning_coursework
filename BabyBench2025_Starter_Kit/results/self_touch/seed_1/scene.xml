@@ -1,0 +1,64 @@
+<!--
+{
+    "save_dir": "results/self_touch/seed_1",
+    "behavior": "self_touch",
+    "scene": "crib",
+    "max_episode_steps": 1000,
+    "frame_skip": 1,
+    "render_size": 480,
+    "save_logs_every": 1000,
+    "proprio_velocity": true,
+    "proprio_torque": true,
+    "proprio_limits": true,
+    "proprio_actuation": true,
+    "vestibular_active": true,
+    "vision_active": false,
+    "vision_resolution": 64,
+    "touch_active": true,
+    "touch_scale": 1.0,
+    "touch_function": "force_vector",
+    "touch_response": "spread_linear",
+    "touch_hands": true,
+    "touch_fingers": true,
+    "touch_arms": true,
+    "touch_feet": true,
+    "touch_legs": true,
+    "touch_body": true,
+    "touch_head": true,
+    "touch_eyes": false,
+    "actuation_model": "spring_damper",
+    "act_hands": true,
+    "act_fingers": true,
+    "act_arms": true,
+    "act_feet": false,
+    "act_legs": true,
+    "act_body": true,
+    "act_head": true,
+    "act_eyes": false,
+    "lock_hands": false,
+    "lock_fingers": false,
+    "lock_arms": false,
+    "lock_feet": true,
+    "lock_legs": false,
+    "lock_body": false,
+    "lock_head": false,
+    "lock_eyes": true
+}
+-->
+<mujoco model="MIMo">
+<worldbody>
+<body name="mimo_location" pos="0 0 0.3" euler="0 -90 0">
+<freejoint name="mimo_location"/>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/mimo_v1.xml"></include>
+</body>
+</worldbody>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/base.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/meta_v1.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_body.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_head.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_arms.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_hands.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_fingers_v1.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/motor_legs.xml"></include>
+<include file="/cs/student/projects1/2023/harmzala/robot_learning_coursework/BabyBench2025_Starter_Kit/MIMo/mimoEnv/assets/babybench/crib.xml"></include>
+</mujoco>
